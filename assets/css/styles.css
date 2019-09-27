@@ -177,3 +177,17 @@ img{
     padding-left: 50px;
     margin-bottom: 20px;
 }
+.galleryItem:hover {
+    background-color: #544332;
+    color: #fff;
+    height: 200px;
+    line-height:50px;
+    display: block;
+    border-radius: 20px;
+}
+.galleryItem p {
+    display: none;
+}
+.galleryItem:hover p {
+    display: block;
+}

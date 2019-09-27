@@ -15,6 +15,59 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/w3css/w3.css">
     <link rel="stylesheet" href="assets/media/queries.css">
+
+    
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+ #wrapper {
+  /* The image used */
+  background-image: url("assets/images/code_image.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+</style>
+
 </head>
 
 <body>
@@ -48,7 +101,7 @@
             </div>
 
         </div>
-        <br>
+       
 
         <div class='w3-row '>
             <div id='tiger' class='w3-bar-block  w3-hide w3-hide-large '>
@@ -68,21 +121,33 @@
         </div>
 
         <div class="row" id="wrapper">
+            
+   <br>
+   <br>
+   <br>
+   <br>
             <div class="col-12" id="mainBio">
                 <div class="row" id="abtMe">
                     <h4>Portfolio</h4>
                 </div>
+
+
+
                 <div class="row">
-                    <p id="imgW"> <a href="https://osybodife.github.io/trainSchedule/"><img
-                                src="assets/images/trainApp.jpg" alt="trainApp" id="img1"></a>
+                    <p id="imgW"> 
+                        
+                     <a href=" https://banana2banana.herokuapp.com/"><img src="assets/images/banana2bananaapp.jpg" alt="burgerapp" id="img5"></a>
+                       <a href="https://github.com/osyBodife/bamazon-customers/blob/master/README.md"> <img
+                                src="assets/images/bamazonApp.jpg" alt="comingsoon" id="img8">
 
-                        <a href="https://osybodife.github.io/bootstrap/"> <img src="assets/images/bootstrapApp.jpg"
-                                alt="Bootstrap" id="img2"> </a>
-
-                        <a href="https://osybodife.github.io/unit-4-game/"> <img src="assets/images/crystalgame.jpg"
-                                alt="cystal_game" id="img3"> </a>
 
                         <a href="https://osybodife.github.io/triviaGame/"> <img src="assets/images/triviagame.jpg"
+                                alt="gallary_03" id="img4"> </a>
+
+
+
+
+                        <a href="https://github.com/osyBodife"> <img src="assets/images/github.jpg"
                                 alt="gallary_03" id="img4"> </a>
 
 
@@ -108,8 +173,7 @@
                         <a href="https://github.com/osyBodife/liri-node-app/blob/master/README.md"> <img
                                 src="assets/images/liri_App.jpg" alt="liri_App" id="img7"></a>
 
-                        <a href="https://github.com/osyBodife/bamazon-customers/blob/master/README.md"> <img
-                                src="assets/images/bamazonApp.jpg" alt="comingsoon" id="img8">
+                        
 
 
 
@@ -122,9 +186,7 @@
                 </div>
                 <div class="row">
                     <p id="imgW">  
-                    <a href="  https://osyburgerapp.herokuapp.com/"><img src="assets/images/eat_de_burger.jpg" alt="burgerapp" id="img5"></a>
-
-                     <a href=" https://banana2banana.herokuapp.com/"><img src="assets/images/banana2bananaapp.jpg" alt="burgerapp" id="img5"></a>
+                   
 
 </p>
 
@@ -133,15 +195,16 @@
 
                 <br>
                 <br>
+                
+                
             </div>
 
-
+<br>
+                <br>
 
         </div>
+        
 
-
-        <br>
-        <br>
 
     </div>
 
