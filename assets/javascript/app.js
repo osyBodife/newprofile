@@ -7,3 +7,10 @@
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+
+
+function popUpPwdFunction() {
+    var poppwdinfo = document.getElementById("Poppwd");
+    poppwdinfo.classList.toggle("show");
+}
